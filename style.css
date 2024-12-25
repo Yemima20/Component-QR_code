@@ -1,0 +1,62 @@
+* {
+  /* CSS reset */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --white: hsl(0, 0%, 100%);
+  --blue:hsl(228, 45%, 44%);
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-900: hsl(218, 44%, 22%);
+}
+body {
+  min-height: 100vh;
+  justify-content: center;
+  text-wrap: wrap;
+  text-wrap-mode:wrap;
+  text-align: center;
+  text-wrap-style: pretty;
+  font-family:'Outfit', system-ui, sans-serif;
+  background-color: var(--slate-300);
+}
+body, .qr-card{
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+/* MAIN */
+.qr-card {
+  gap: 16px;
+  margin: 1rem;
+  padding: 10px;
+  min-width:fit-content;
+  border-radius: 18px;
+  background-color: var(--white);
+  place-content: center;
+
+  img {
+    border-radius: 8px;
+    max-width: 16rem;
+    max-height: fit-content;
+  }
+  h3, p{
+    max-width: 14rem;
+  }
+  h3 {
+    font-weight: 700px;
+    color: var(--slate-900);
+  }
+  p {
+    font-size: 13px;
+    font-weight:400;
+    color: var(--slate-500);
+  }
+}
+/* FOOTER */
+footer{
+  a{
+    color: var(--blue);
+  }
+}
