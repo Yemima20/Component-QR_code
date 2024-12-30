@@ -45,7 +45,7 @@ From this project, I found several things that I will develop either for similar
 
 ### Useful resources
 
-- [[MDN](https://developer.mozilla.org/en-US/)], [[web.dev](https://web.dev/)], [[Kevin Powell](https://www.youtube.com/kevinpowell)] - It helps me to discover the meaning, the usage, and the best practice value structure of CSS codes that are not commonly used, not familiar, or make sure I'm using t correctly like custom CSS props, text, flex, grid, units, alignment, etc.
+- [[MDN](https://developer.mozilla.org/en-US/)], [[web.dev](https://web.dev/)], [[Kevin Powell](https://www.youtube.com/kevinpowell)], [[W3Docs](https://www.w3docs.com/)] - It helps me to discover the meaning, the usage, and the best practice value structure of CSS codes that are not commonly used, not familiar, or make sure I'm using t correctly like custom CSS props, text, flex, grid, sizing images, units, alignment, etc also [[Markdown Guide](https://www.markdownguide.org/)] helps me to learn about .md file.
 - [Font](https://fonts.google.com/) - helps me to find the correct font and the [documentation](https://developers.google.com/fonts/docs/css2) helps me understand for each unfamiliar part of the API and use the font correctly.
 
 ## Author
